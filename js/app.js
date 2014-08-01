@@ -1,3 +1,25 @@
+
+<!-- 
+/*
+
+*****************************************
+
+File created or Modified By JPavlo
+
+
+    jpavlo@gmail.com
+    Twitter :  @jpavlo
+    Site: jpavlo.com
+    GitHub: https://github.com/jpavlo/
+
+    Any question and contact feel free to ask
+
+*****************************************
+*/
+-->
+
+
+
 var App = angular.module('App', []);
 
 /* Configuration File */
