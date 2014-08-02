@@ -26,7 +26,7 @@ var App = angular.module('App', []);
 
 App.controller("confController", function($scope) {
   $scope.site = {
-  	title: "JPavlo - TI Developer",     
+    title: "JPavlo - TI Developer",     
     navtitle1: "IT",					 
     navtitle2: "Developer",
     mtools: "Tools",
