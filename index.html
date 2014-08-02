@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="App" ng-controller="textController">
+<html lang="en" ng-app="App" ng-controller="confController">
 
 <head>
 
@@ -95,7 +95,7 @@ File created or Modified By JPavlo
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading">{{site.titlebig}}</h1>
-                        <p class="intro-text">Some tools that I use often<br> I Love Open Source</p>
+                        <p class="intro-text">{{site.introtext}}<br> {{site.introtext2}}</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -105,25 +105,25 @@ File created or Modified By JPavlo
         </div>
     </header>
 
-    <!-- About Section -->
+
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>i Use to Work With...</h2>
-                <p>Some Tools that i'll use to Develop your next project.</p><br/>
+                <h2>{{site.aboutiuse}}</h2>
+                <p>{{site.abouttools}}</p><br/>
                 <img src="img/tools.png" height="200" width="400" alt="" class="img-tools">
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
+
     <section id="download" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>About Me</h2>
-                    <p>Electronic Engineer, Master in Business Administration, Freelance Developer <br />Web, iOS, Android</p>
-                    <a href="https://www.elance.com/s/jpavlo/" class="btn btn-success btn-lg">Visit Elance Profile</a>
+                    <h2>{{site.aboutme}}</h2>
+                    <p>{{site.cv}}<br />{{site.cv2}}</p>
+                    <a href="https://www.elance.com/s/jpavlo/" class="btn btn-success btn-lg">{{site.elance}}</a>
                 </div>
             </div>
         </div>
@@ -133,16 +133,16 @@ File created or Modified By JPavlo
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact for Freelance Work</h2>
-                <p>Feel free to request a quote on your next project</p>
-                <p><a href="mailto:jpavlo@gmail.com">jpavlo@gmail.com</a>
+                <h2>{{site.contactme}}</h2>
+                <p>{{site.feelfree}}</p>
+                <p><a href="mailto:jpavlo@gmail.com">{{site.email}}</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/jpavlo" class="btn btn-success btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://twitter.com/jpavlo" class="btn btn-success btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">{{site.tweeter}}</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/u/0/110098923195847505392/posts" class="btn btn-success btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="{{site.sitegoogle}}" class="btn btn-success btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">{{site.google}}</span></a>
                     </li>
                 </ul>
             </div>
